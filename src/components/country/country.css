@@ -1,0 +1,42 @@
+:root {
+  --border-radius-size: 8px;
+}
+
+.country-card {
+  width: 75vw;
+  margin: 3rem;
+  border-radius: var(--border-radius-size) var(--border-radius-size);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  background: #fff;
+}
+
+.flag {
+    max-width: 100%;
+    height: auto;
+    border-top-right-radius: var(--border-radius-size);
+    border-top-left-radius: var(--border-radius-size);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1rem;
+}
+
+.info-item {
+  margin: 0.3vh;
+}
+
+.info-item:first-child {
+  margin-bottom: 2vh;
+}
+
+.info-item:last-child {
+  margin-bottom: 8vh;
+}
+
+.strong-text {
+  font-weight: 600;
+}
